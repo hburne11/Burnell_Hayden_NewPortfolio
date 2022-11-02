@@ -32,19 +32,21 @@
 				<h1>Hey, I'm Hayden.</h1>
 				<p><i>Welcome to my website!</i></p>
 				<br>
-				<button class="btn" type="submit" onclick="window.open('assets/hb_resume.pdf')">School Resume</button>
+				<button class="button" type="submit" onclick="window.open('assets/hb_resume.pdf')">School Resume</button>
 				<br>
-				<button class="btn" type="submit" onclick="window.open('assets/hb_resume2.pdf')">Professional Resume</button>
+				<button class="button" type="submit" onclick="window.open('assets/hb_resume2.pdf')">Professional Resume</button>
 			  </section>
 
 			  
 			  
 			  <section id="projects" class="project-section">
 					<h2 class="projects-section-header">My Projects</h2>
+					<h3 class="projects-section-header2">Click on a Project Title to view more information:</h3>
+
 			  
 				<div class="projects-grid">
 				  <a
-					href="https://www.redbubble.com/people/hobsdesigns/shop?artistUserName=HobsDesigns&collections=2790657&iaCode=all-departments&sortOrder=relevant"
+					
 					target="_blank"
 					class="project project-tile"
 				  >
@@ -55,19 +57,15 @@
 					/>
 					<h2 class="project-title">
 					  
-					  Hamilton Bulldogs
-					  <p class="project-desc">
-
-						My portfolio feature is my proudest work. All of the projects I created or helped on during my internship with the OHL Champions!
-					</p>
+						<button id="myBtn">Hamilton Bulldogs</button>
+					  
 					  
 					</h2>
+				  
+					</a>
 
 					
-				  </a>
-				  
 				  <a
-					href="https://drive.google.com/file/d/1cBSJABkKYiYDmbEhXdVYKO3iB6mMSHk6/view?usp=sharing"
 					target="_blank"
 					class="project project-tile"
 				  >
@@ -78,18 +76,13 @@
 					/>
 					<h2 class="project-title">
 					 
-					  Monday Night Football Intro
+					 <button id="myBtn2">Sportsnet Intro</button>
 					 
-					</h2>
-
-					<p class="project-desc">
-						Everything 3D Modelled from scratch, all custom textures and camera movements done in Cinema 4D. Editing completed in After Effects.
-						
-					</p>
+					
+				</h2>
 				  </a>
 				  
 				  <a
-					href="https://drive.google.com/file/d/1xdYapcTvbsuh66sn_FzjORKvq7iDpEp6/view?usp=sharing"
 					target="_blank"
 					class="project project-tile"
 				  >
@@ -100,18 +93,15 @@
 					/>
 					<h2 class="project-title">
 					
-					  Data Visualization-Sports Science
+						<button id="myBtn3">Data Visualization</button>
 					  
-					</h2>
+					
 
-					<p class="project-desc">
-
-						Used Motion Tracking and Functions in After Effects.
-					</p>
+					
+				</h2>
 				  </a>
 				  
 				  <a
-					href="https://drive.google.com/file/d/1kJBV34_s9hml-fxZoVe_BrAuTUeul2t-/view?usp=sharing"
 					target="_blank"
 					class="project project-tile"
 				  >
@@ -122,18 +112,16 @@
 					/>
 					<h2 class="project-title">
 					 
-					  Movie Title Sequence
+						<button id="myBtn4">Title Sequence</button>
 					  
-					</h2>
+					
+					
+				</h2>
 
-					<p class="project-desc">
-
-						Used Stock Footage and After Effects to create an Opening Title for The Martian
-					</p>
 				  </a>
 				  
 				  <a
-					href="https://drive.google.com/file/d/16SSQQhYH6gNw-RmbeWrcNM1Zsna8AjCu/view?usp=sharing"
+					
 					target="_blank"
 					class="project project-tile"
 				  >
@@ -144,18 +132,16 @@
 					/>
 					<h2 class="project-title">
 					  
-					  Cosmetics Commercial
+						<button id="myBtn5">Cosmetics Commercial</button>
 					  
-					</h2>
+					
 
-					<p class="project-desc">
-
-						Colour Corrected in After Effects
-					</p>
+					
+				</h2>
 				  </a>
 				  
 				  <a
-					href="https://drive.google.com/file/d/1SbCZf25eZX7NT0VuH3NHwEl20tNEfg8e/view?usp=sharing"
+					
 					target="_blank"
 					class="project project-tile"
 				  >
@@ -166,18 +152,106 @@
 					/>
 					<h2 class="project-title">
 					  
-					  Morphing Fruits Commercial
+						<button id="myBtn6">Morphing Commercial</button>
 					  
-					</h2>
+					
 
-					<p class="project-desc">
-
-						A Morphing commercial for kids to eat healthier, completed with Cinema 4D and After Effects.
-					</p>
+					
+				</h2>
 				  </a>
 			  
 			  
 				</div>
+				<div id="myModal" class="modal">
+
+					<!-- Modal content -->
+					<div class="modal-content">
+					  <span class="close">&times;</span>
+					 
+					  <video src="images/ceci_commercial.mp4" 
+					   width="80%" height="100%" controls></video>
+					   <p class="project-desc">
+
+						My portfolio feature is my proudest work. All of the projects I created or helped on during my internship with the OHL Champions!
+					</p>
+					</div>
+				  
+				  </div>
+
+				  <div id="myModal2" class="modal">
+
+					<!-- Modal content -->
+					<div class="modal-content">
+					  <span class="close2">&times;</span>
+					 
+					  <video src="images/DV.mp4"  width="50%" height="50%" controls></video>
+					  <p class="project-desc">
+						Everything 3D Modelled from scratch, all custom textures and camera movements done in Cinema 4D. Editing completed in After Effects.
+						
+					</p>
+					</div>
+				  
+				  </div>
+
+				  <div id="myModal3" class="modal">
+
+					<!-- Modal content -->
+					<div class="modal-content">
+					  <span class="close3">&times;</span>
+					  
+					  <video src="images/DV.mp4"  width="50%" height="50%" controls></video>
+					  <p class="project-desc">
+
+						Used Motion Tracking and Functions in After Effects.
+					</p>
+					</div>
+				  
+				  </div>
+
+				  <div id="myModal4" class="modal">
+
+					<!-- Modal content -->
+					<div class="modal-content">
+					  <span class="close4">&times;</span>
+					  
+					  <video src="images/DV.mp4"  width="50%" height="50%" controls></video>
+					  <p class="project-desc">
+
+						Used Stock Footage and After Effects to create an Opening Title for The Martian
+					</p>
+					</div>
+				  
+				  </div>
+
+				  <div id="myModal5" class="modal">
+
+					<!-- Modal content -->
+					<div class="modal-content">
+					  <span class="close5">&times;</span>
+					  
+					  <video src="images/DV.mp4"  width="50%" height="50%" controls></video>
+					  <p class="project-desc">
+
+						Colour Corrected in After Effects
+					</p>
+					</div>
+				  
+				  </div>
+
+				  <div id="myModal6" class="modal">
+
+					<!-- Modal content -->
+					<div class="modal-content">
+					  <span class="close6">&times;</span>
+					  
+					  <video src="images/DV.mp4"  width="50%" height="50%" controls></video>
+					  <p class="project-desc">
+
+						A Morphing commercial for kids to eat healthier, completed with Cinema 4D and After Effects.
+					</p>
+					</div>
+				  
+				  </div>
 			  
 				  
 			  </section>
@@ -249,5 +323,7 @@
 			  
 			  <!-- END FOOTER SECTION -->
 	</body>
+
+	<script src="js/main.js"></script>
 
 </html>
