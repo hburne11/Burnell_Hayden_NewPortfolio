@@ -5,9 +5,9 @@
     if ($_POST) {
         $recipient = "hayden.burnell2@gmail.com";
         $subject = 'Email from site';
-        $visitor_name         = "";
-        $visitor_email        = "";
-        $message      = "";
+        $visitor_name = "";
+        $visitor_email = "";
+        $message = "";
         $fail = array();
     
         if (isset($_POST['firstname']) && !empty($_POST['firstname'])) {
@@ -22,9 +22,6 @@
         }
     
         if (isset($_POST['email']) && !empty($_POST['email'])) {
-            // Replace all occurrences of the search string with the replacement string (empty quotes)
-            /* %0A & %0D are the hexidecimal representation of a linefeed, and forces a line break in the email’s header block.  This will help to stop intejection attacks as the user can not create linebreaks and add additional headers.
-            */
             $email = str_replace(array("\r", "\n", "%0a", "%0d"), '', $_POST['email']);
             $email = filter_var($email, FILTER_VALIDATE_EMAIL);
         }else{
@@ -43,18 +40,13 @@
         It is an in-built function of PHP, which is used to insert the HTML line breaks before all newlines in the string. Although, we can also use PHP newline character \n or \r\n inside the source code to create the newline, but these line breaks will not be visible on the browser.
         */
     
-        $headers = 'From: ' . "\r\n" .
-        'Reply-To: ' . "\r\n" .
-        'X-Mailer: PHP/' . phpversion();
+        $headers = "From: " .$visitor_name. "\r\n" . "Reply-To: " .$visitor_email. "\r\n" ."X-Mailer: PHP/" .phpversion();
+
         
         if (count($fail)==0) {
             //echo count($fail);
             mail($recipient, $subject, $message, $headers);
-            /* In printf, %s is a placeholder for data that will be inserted into the string. 
-            The extra arguments to printf are the values to be inserted. They get associated with 
-            the placeholders positionally: the first placeholder gets the first value, the second 
-            the second value, and so on.  $visitor_name is the %s(this is the placeholder within the string).
-            */
+           
             $results['message'] = sprintf('Thank you for contacting us, %s. You will get a reply within 24 hours', $visitor_name);
         } else {
             // Using this as a response message witha  custom code to grab with JS.
