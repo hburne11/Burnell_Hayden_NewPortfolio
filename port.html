@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    
+        <head>
+            <meta charset="UTF-8">
+            <title>Hayden Burnell Portfolio</title>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+            <link href="css/main.css" rel="stylesheet" type="text/css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Sanchez&display=swap" rel="stylesheet">
+            </head>
+        <body>
+            <script src="https://kit.fontawesome.com/5eb2c51ffb.js" crossorigin="anonymous"></script> 
+            <!-- For Font-awesome icon -->
+            <nav id="navbar" class="nav">
+                <h1 class="hidden">Nav</h1>
+                    <ul>
+                      <li>
+                        <a href="index.html">About</a>
+                      </li>
+                      <li>
+                        <a href="port.html">Portfolio</a>
+                      </li>
+                      <li>
+                        <a href="index.html">Contact</a>
+                      </li>
+                    </ul>
+                  </nav>
+
+
+    <main id="app">
+        <article>
+            <h3>My Projects</h3>
+            <p>Click on a Project Title to view more information:</p>
+        </article>
+        <nav id="car-nav">
+            <ul class="cars">
+                
+                <!-- hero thumb component goes here -->
+                <theherothumb @loadlbdata="loadLightbox" v-for="hero in heroData" :hero="hero"></theherothumb> <!-- dont forget the v-for -->
+            </ul>
+        </nav>
+
+      
+
+        <!-- custom lightbox goes here-->
+        <thelightbox @closelb="this.showLB = false" v-if="showLB":hero="lightboxData"></thelightbox> 
+        <!-- end lightbox here-->
+    </main>
+    
+ 
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="js/api.js" type="module" defer></script>
+</body>
+</html>
