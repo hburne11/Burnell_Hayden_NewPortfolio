@@ -8,14 +8,14 @@
     "Lineup Sheets": {
         "name":"Lineup Sheets",
         "desc":"Made in Illustrator for every game. Get the rosters and logos of the visiting team, and the updated stats of both teams which are available to the fans at each home game.",
-        "video":"MNF.mp4",
+        "video":"sheets.mp4",
         "biopic":"line_sheet.png"
     },
-    "Post Game Press Releases": {
-        "name":"Post Game Press Releases",
-        "desc":"Taking what happens in the game and writing an article for the website with details of how it played out.",
-        "video":"DV.mp4",
-        "biopic":"press.png"
+    "Hockey Cards": {
+        "name":"Hockey Cards",
+        "desc":"I had the privilege of designing this seasons set of team hockey cards! They are still in progress, and will be for sale by Christmas time!",
+        "video":"cards.mp4",
+        "biopic":"cards.png"
     },
     "Highlight Packages": {
         "name":"Highlight Packages",
@@ -32,7 +32,7 @@
     "Bulldogs Audio Network": {
         "name":"Bulldogs Audio Network",
         "desc":"My first task as a Bulldogs intern, I used Adobe Illustrator to create multiple mockups of possible logos to use for the teams Audio Network which includes poscasts and live streams of the games.",
-        "video":"morph_final.mp4",
+        "video":"logos.mp4",
         "biopic":"podcast.png"
     }
   }
