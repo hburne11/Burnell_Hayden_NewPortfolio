@@ -1,37 +1,37 @@
 {
     "Upcoming Games Graphics": {
         "name":"Upcoming Games Graphics",
-        "desc":"My portfolio feature is my proudest work. All of the projects I created or helped on during my internship with the OHL Champions!",
-        "video":"DV.mp4",
+        "desc":"I use Canva or Photoshop to create, and the graphic is displayed on the website and on the jumbotron!",
+        "video":"graphics.mp4",
         "biopic":"up_games.png"
     },
     "Lineup Sheets": {
         "name":"Lineup Sheets",
-        "desc":"Everything 3D Modelled from scratch, all custom textures and camera movements done in Cinema 4D. Editing completed in After Effects.",
+        "desc":"Made in Illustrator for every game. Get the rosters and logos of the visiting team, and the updated stats of both teams which are available to the fans at each home game.",
         "video":"MNF.mp4",
         "biopic":"line_sheet.png"
     },
     "Post Game Press Releases": {
         "name":"Post Game Press Releases",
-        "desc":"Used Motion Tracking and Functions in After Effects.",
+        "desc":"Taking what happens in the game and writing an article for the website with details of how it played out.",
         "video":"DV.mp4",
         "biopic":"press.png"
     },
     "Highlight Packages": {
         "name":"Highlight Packages",
-        "desc":"Used Stock Footage and After Effects to create an Opening Title for The Martian.",
-        "video":"Title_Sequence_1.mp4",
+        "desc":"Edit together the highlights of the games, primarily the goals and big saves, using Premiere Pro or Davinci Resolve.",
+        "video":"highlight_1.mp4",
         "biopic":"highlights.png"
     },
     "Social Media": {
         "name":"Social Media",
-        "desc":"Colour Corrected in After Effects.",
-        "video":"weregoin.mp4",
+        "desc":"I film a lot of the content for the Bulldogs Social Media Pages, including this interview with the voice of the Bulldogs Reed Duthie! He even gives me a shoutout in this one!",
+        "video":"reed_1.mp4",
         "biopic":"lineups.png"
     },
     "Bulldogs Audio Network": {
         "name":"Bulldogs Audio Network",
-        "desc":"A Morphing commercial for kids to eat healthier, completed with Cinema 4D and After Effects.",
+        "desc":"My first task as a Bulldogs intern, I used Adobe Illustrator to create multiple mockups of possible logos to use for the teams Audio Network which includes poscasts and live streams of the games.",
         "video":"morph_final.mp4",
         "biopic":"podcast.png"
     }
