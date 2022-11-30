@@ -1,5 +1,5 @@
-#Hayden Burnell Portfolio
-##Completely upgraded Portfolio from last year
+# Hayden Burnell Portfolio
+## Completely upgraded Portfolio from last year
 
 Final Project for IDP33- Fully functional responsive portfolio site live online at [HBurnell.com](https://hburnell.com)
 Includes my logo, navigation, my resumes, portfolio pieces, feature page using API/AJAX/Vue, and a functional contact page linked to my personal email.
