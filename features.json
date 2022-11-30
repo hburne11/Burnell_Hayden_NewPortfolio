@@ -1,0 +1,38 @@
+{
+    "Upcoming Games Graphics": {
+        "name":"Upcoming Games Graphics",
+        "desc":"I use Canva or Photoshop to create, and the graphic is displayed on the website and on the jumbotron!",
+        "video":"graphics.mp4",
+        "biopic":"up_games.png"
+    },
+    "Lineup Sheets": {
+        "name":"Lineup Sheets",
+        "desc":"Made in Illustrator for every game. Get the rosters and logos of the visiting team, and the updated stats of both teams which are available to the fans at each home game.",
+        "video":"sheets.mp4",
+        "biopic":"line_sheet.png"
+    },
+    "Hockey Cards": {
+        "name":"Hockey Cards",
+        "desc":"I had the privilege of designing this seasons set of team hockey cards! They are still in progress, and will be for sale by Christmas time!",
+        "video":"cards.mp4",
+        "biopic":"cards.png"
+    },
+    "Highlight Packages": {
+        "name":"Highlight Packages",
+        "desc":"Edit together the highlights of the games, primarily the goals and big saves, using Premiere Pro or Davinci Resolve.",
+        "video":"highlight_1.mp4",
+        "biopic":"highlights.png"
+    },
+    "Social Media": {
+        "name":"Social Media",
+        "desc":"I film a lot of the content for the Bulldogs Social Media Pages, including this interview with the voice of the Bulldogs Reed Duthie! He even gives me a shoutout in this one!",
+        "video":"reed_1.mp4",
+        "biopic":"lineups.png"
+    },
+    "Bulldogs Audio Network": {
+        "name":"Bulldogs Audio Network",
+        "desc":"My first task as a Bulldogs intern, I used Adobe Illustrator to create multiple mockups of possible logos to use for the teams Audio Network which includes poscasts and live streams of the games.",
+        "video":"logos.mp4",
+        "biopic":"podcast.png"
+    }
+  }
