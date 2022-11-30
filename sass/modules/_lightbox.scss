@@ -60,11 +60,12 @@
     color: white;
     margin-left: 22%;
     padding-right: 11%;
-    margin-top: -390px;
+    margin-top: -350px;
    
 
   }
 
+ 
   article h3{
     font: 32px 'Sanchez', Arial, serif;
     font-weight: bolder;
@@ -86,6 +87,21 @@
     padding: 25px;
     
   }
+
+  @media (max-width: 464px){
+    .vid{
+      position: absolute;
+      width: 200%;
+    }
+      .lb_text {
+        margin-top: 450px;
+      }
+
+      .return{
+        margin-top: 250px;
+      }
+    }
+  
 
 
   
