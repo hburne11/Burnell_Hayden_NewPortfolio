@@ -8,6 +8,7 @@
     left: 50;
     top: 50;
     margin-top: 40px;
+    margin-bottom: 40px;
     margin-left: 3%;
     background-repeat: no-repeat;
   
@@ -27,7 +28,10 @@
     width: 25px;
   }
 
- 
+ .return{
+  text-align: center;
+  margin-bottom: 80px;
+ }
   .lightbox_close:hover { 
     opacity: 0.7; 
     transform: scale(-1, 1); 
@@ -41,8 +45,9 @@
   }
 
   .lb_heading{
-    font: 32px black 'Sanchez', Arial, serif;
+    font: 32px white 'Sanchez', Arial, serif;
     font-weight: bold;
+    display: none;
    
   }
   
@@ -52,7 +57,7 @@
     line-height: 1.6 !important;
     font: 20px 'Raleway', Arial, serif;
     font-weight: 400;
-    color: black;
+    color: white;
     margin-left: 22%;
     padding-right: 11%;
     margin-top: -390px;
@@ -60,11 +65,27 @@
 
   }
 
-  video{
+  article h3{
+    font: 32px 'Sanchez', Arial, serif;
+    font-weight: bolder;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+  article p{
+    font: 32px white 'Sanchez', Arial, serif;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+}
+
+  .vid{
     position: relative;
     width: 45%;
     padding: 25px;
     
   }
+
 
   

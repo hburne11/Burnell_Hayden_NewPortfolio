@@ -12,7 +12,7 @@ import LightBox from './components/TheLightbox.js';
     createApp({
         created() {
             // always get your remote data here
-            fetch('./data.json')
+            fetch('./features.json')
                 .then(res => res.json())
                 .then(data => this.heroData = data)
             .catch(error => console.error(error));

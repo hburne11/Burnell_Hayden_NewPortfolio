@@ -14,7 +14,7 @@ export default {
          
         <!-- her image is a background image -->
     
-        <video  controls :src='"../images/" + hero.video'/>
+        <video class="vid" controls :src='"../images/" + hero.video'/>
         
         <article>
         <h3 class="lb_heading">
