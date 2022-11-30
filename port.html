@@ -31,24 +31,28 @@
 
 
     <main id="app">
+      <h2 class="hidden">Feature Page</h2>
         <article>
             <h3>My Internship- Hamilton Bulldogs</h3>
             <p>Check out what I do at my Internship with the 2022 OHL Champs!</p>
         </article>
+        <h3 class="hidden">Feature Pieces</h3>
         <nav id="car-nav">
+          <h3 class="hidden">Lightbox</h3>
             <ul class="cars">
-                
+              
                 <!-- hero thumb component goes here -->
                 <theherothumb @loadlbdata="loadLightbox" v-for="hero in heroData" :hero="hero"></theherothumb> <!-- dont forget the v-for -->
             </ul>
         </nav>
 
-      
+        
 
         <!-- custom lightbox goes here-->
-        <thelightbox @closelb="this.showLB = false" v-if="showLB":hero="lightboxData"></thelightbox> 
+        <thelightbox @closelb="this.showLB = false" v-if="showLB" :hero="lightboxData"></thelightbox> 
         <!-- end lightbox here-->
     </main>
+    
     <p class="return"><a href="index.html">Return to Home Page</a></p>
  
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
