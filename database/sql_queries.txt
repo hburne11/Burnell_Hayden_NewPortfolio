@@ -1,0 +1,12 @@
+PORTFOLIO TABLE
+
+SELECT port_name, port_desc FROM tbl_portfolio WHERE port_software LIKE "%CINEMA 4D%";- display projects that were made using C4D
+SELECT port_name, port_desc FROM tbl_portfolio WHERE port_software LIKE "%After Effects%";- display projects that were made using After Effects
+SELECT port_name, port_desc FROM tbl_portfolio WHERE port_type LIKE "%video%"- display projects with video files
+
+FEATURE TABLE
+
+SELECT * FROM tbl_feature WHERE feature_media LIKE "%png%";- display all columns of projects where png files are included
+SELECT * FROM tbl_feature WHERE feature_media LIKE "%mp4%";- display all columns of projects where mp4 files are included
+SELECT * FROM tbl_feature WHERE feature_media LIKE "%Adobe%";- display all columns of projects that were made with Adobe Software
+SELECT feature_name, feature_desc FROM tbl_feature WHERE feature_software LIKE "%Canva%";- display the name and description of projects created using Canva
