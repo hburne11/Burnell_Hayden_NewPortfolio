@@ -14,6 +14,9 @@ Open in Live Server to view the project, or [Click Here](https://hburnell.com) t
 
 CSS is generated with SASS using the command line tools. You'll need dart-sass (preferred) - [you can get it here](https://sass-lang.com/install)
 
+## Database
+In the Database folder includes a .sql file of my portfolio database and a text file of sql queries to view specific data.
+
 ## Credits
 Hayden Burnell 2022
 
